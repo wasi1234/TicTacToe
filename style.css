@@ -1,0 +1,70 @@
+.body{
+	margin: auto;
+	}
+	html { 
+  background: url(t.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+.square{
+	width: 120px;
+	height: 120px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+table {
+    border-collapse: collapse;
+    margin: auto;
+
+}
+table,td {
+    border: 2px solid white;
+    padding: 20 px;
+}
+td:hover {
+	background-color:SkyBlue;
+}
+
+a{
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+	color: black;
+	font-family: sans-serif;
+    -webkit-animation:h1Animation 5s;
+
+}
+@-webkit-keyframes h1Animation {
+ 
+    0%   {-webkit-transform:rotate(0deg)}
+    25%   {-webkit-transform:rotate(90deg)}
+    50%  {-webkit-transform:rotate(180deg)}
+    75%  {-webkit-transform:rotate(270deg)}
+    100%  { -webkit-transform:rotate(360deg)}
+     0%   {-webkit-transform: scale(1,2);}
+
+    25%   {-webkit-transform: scale(2,3);}
+
+    50%  {-webkit-transform: scale(3,4);}
+
+    75%  {-webkit-transform: scale(4,5);}
+
+    100%  { -webkit-transform: scale(0,0);}
+
+     
+}
+
+.center{
+	text-align: center;
+	margin: 20px;
+}
+
+#restart{
+	padding: 20px;
+	display: inline-block;
+	background: green;
+	color: white;
+	font-weight: bold;
+}
